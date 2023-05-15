@@ -1,0 +1,62 @@
+{
+  "search": [
+    {
+      "type": "search",
+      "category": "news",
+      "description": "useful for when you need to answer questions about 
+current events or the current state of the world.",
+      "disclaimer": "네이버 OpenAPI를 이용한 네이버 검색을 
+수행합니다.\n네이버 홈페이지 검색 결과와 다를 수 있습니다.",
+      "api": "naver_openapi_search_news"
+    },
+    {
+      "type": "search",
+      "category": "blog",
+      "description": "useful for when you need to answer questions about 
+regional and life information.",
+      "disclaimer": "네이버 OpenAPI를 이용한 네이버 검색을 
+수행합니다.\n네이버 홈페이지 검색 결과와 다를 수 있습니다.",
+      "api": "naver_openapi_search_blog"
+    },
+    {
+      "type": "search",
+      "category": "Google",
+      "description": "useful for when you need to answer questions about 
+current events or the current state of the world.",
+      "disclaimer": "구글검색 파이썬 모듈을 이용한 검색을 
+수행합니다.\n홈페이지 검색 결과와 다를 수 있습니다.",
+      "api": "google_search_python_module"
+    },
+    {
+      "type": "search",
+      "category": "Wikipedia",
+      "description": "useful for when you need to ask with lookup for 
+definitions or information about a specific topic.",
+      "disclaimer": "위키피디아 파이썬 모듈을 이용한 검색을 수행합니다. \n 
+홈페이지 검색 결과와 다를 수 있습니다.",
+      "api": "wikipedia_search_python_module"
+    }
+  ],
+  "function": [
+    {
+      "type": "function",
+      "category": "Calculator",
+      "description": "useful for when you need to answer questions about 
+math.",
+      "disclaimer": "LangChain의 계산기 모듈을 이용한 검색을 수행합니다.",
+      "api": "langchain_calculator"
+    }
+  ],
+  "conversation": [
+    {
+      "type": "conversation",
+      "category": "General",
+      "description": "useful for when you need to answer general 
+conversations. use this more than all other tools.",
+      "disclaimer": "에이전트와 함께 사용할 수 있는 일반 대화 모듈입니다. 
+\n 경우에 따라 에이전트를 사용하지 않고 일반대화를 수행하게 할때 
+유용합니다.",
+      "api": "basic_conversation"
+    }
+  ]
+}
