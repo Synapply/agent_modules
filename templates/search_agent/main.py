@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Naver OpenAPI Search News
+Search Agent Template
 """
 
 def main(search_keyword, number_search_items = 5, sort = "sim"): # sort is 'sim' or 'date'
